@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf9e40b9-0f8b-4d4a-90df-f133b6ad219a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Match/MatchesPositions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Match/MatchesPositions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Match/MatchSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Match/MatchSystem.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://F:/Unity projects/DrawToPee/Toilet Rush/Toilet rush/Assets/Scripts/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/BoardModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IBorderView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/IBorderView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Board/BoardController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventBus/EventBus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventBus/Events/SetItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventBus/Events/SetItemSignal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/TicTockToe.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Board/BoardModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/ITicTocToeSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/TicTocToeSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Board/BoardView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventBus/Events/WinEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventBus/Events/SetItemEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/MovementSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cell/Cell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/SelectItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Match/MatchesPositions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Match/MatchSystem.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2TYypmbBMlYfAiY7dkJKxk9VpGA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf9e40b9-0f8b-4d4a-90df-f133b6ad219a" name="Default Changelist" comment="" />
+      <created>1691234494971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691234494971</updated>
+      <workItem from="1691234501354" duration="6269000" />
+      <workItem from="1691326066942" duration="2740000" />
+      <workItem from="1691332996151" duration="10972000" />
+      <workItem from="1691354254973" duration="1212000" />
+      <workItem from="1691411280284" duration="3436000" />
+      <workItem from="1691418033583" duration="431000" />
+      <workItem from="1691419360418" duration="3205000" />
+      <workItem from="1691423519488" duration="1617000" />
+      <workItem from="1691425661577" duration="10844000" />
+      <workItem from="1691760345239" duration="2875000" />
+      <workItem from="1691780131848" duration="3652000" />
+      <workItem from="1691872116820" duration="5521000" />
+      <workItem from="1691940552260" duration="5637000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
