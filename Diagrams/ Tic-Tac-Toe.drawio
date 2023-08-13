@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-13T22:57:17.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="UH5RSDAUAI58LSHZKQgt" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-13T23:08:43.701Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="oCVOBKoAeBcDTGLoTHgi" version="21.6.8" type="github">
   <diagram name="Страница — 1" id="X_MFsi-lvggPyJvfzXdd">
-    <mxGraphModel dx="1235" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,17 +64,17 @@
         <mxCell id="auqUNaoc3VuofEOo_eY_-21" value="+&amp;nbsp;private Start(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="auqUNaoc3VuofEOo_eY_-18">
           <mxGeometry y="98" width="420" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="auqUNaoc3VuofEOo_eY_-22" value="BoardController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="480" y="360" width="370" height="104" as="geometry" />
+        <mxCell id="auqUNaoc3VuofEOo_eY_-22" value="SelectItem : MonoBehaviour" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="470" height="244" as="geometry" />
         </mxCell>
-        <mxCell id="auqUNaoc3VuofEOo_eY_-23" value="&lt;div&gt;-&amp;nbsp;public static Instance: SelectItem&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="auqUNaoc3VuofEOo_eY_-22">
-          <mxGeometry y="26" width="370" height="44" as="geometry" />
+        <mxCell id="auqUNaoc3VuofEOo_eY_-23" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;-&amp;nbsp;public static Instance: SelectItem&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;- [SerializeField] private zeroSprite: Sprite&lt;/div&gt;&lt;div&gt;- [SerializeField] private crossSprite: Sprite&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- [SerializeField] private item: GameObject&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- private _isCrossItem: bool&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;- private readonly Dictionary _itemsDictionary: &amp;lt;Vector3, string&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 153, 153);&quot;&gt;- public Dictionary MatchesPositionsList: &amp;lt;Vector3, string&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="auqUNaoc3VuofEOo_eY_-22">
+          <mxGeometry y="26" width="470" height="184" as="geometry" />
         </mxCell>
         <mxCell id="auqUNaoc3VuofEOo_eY_-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="auqUNaoc3VuofEOo_eY_-22">
-          <mxGeometry y="70" width="370" height="8" as="geometry" />
+          <mxGeometry y="210" width="470" height="8" as="geometry" />
         </mxCell>
         <mxCell id="auqUNaoc3VuofEOo_eY_-25" value="+&amp;nbsp;public BoardModel()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="auqUNaoc3VuofEOo_eY_-22">
-          <mxGeometry y="78" width="370" height="26" as="geometry" />
+          <mxGeometry y="218" width="470" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
