@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf9e40b9-0f8b-4d4a-90df-f133b6ad219a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GamePlay/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GamePlay/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GamePlay/SelectItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GamePlay/SelectItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Match/MatchSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Match/MatchSystem.cs" afterDir="false" />
-    </list>
+    <list default="true" id="bf9e40b9-0f8b-4d4a-90df-f133b6ad219a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +119,7 @@
       <workItem from="1691780131848" duration="3652000" />
       <workItem from="1691872116820" duration="5521000" />
       <workItem from="1691940552260" duration="5637000" />
-      <workItem from="1692010730284" duration="7451000" />
+      <workItem from="1692010730284" duration="7477000" />
     </task>
     <servers />
   </component>
