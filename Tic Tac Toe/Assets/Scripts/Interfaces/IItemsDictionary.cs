@@ -3,12 +3,14 @@ using UnityEngine;
 
 namespace Interfaces
 {
-    public interface IItemsDictionary
+    public interface IItemsDictionary<TKey, TValue>
     {
-        Dictionary<Vector3, string> ItemsDictionary { get; }
+        Dictionary<TKey, TValue> ItemsDictionary { get; }
 
-        void AddItem(Vector3 position, string value);
-        void ShowElements();
-        List<Vector3> GroupItems();
+        public void AddItem(TKey key, TValue value);
+        public void ShowElements();
+        public void SetValue(TKey key, TValue value);
+        public string GetValue(TKey key);
+        public bool IsContainsKey(TKey key);
     }
 }

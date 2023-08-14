@@ -35,8 +35,9 @@ namespace Board
 
                     Vector3 cellPosition = cell.transform.position;
                     
-                    SelectItem.Instance.ItemsDictionary.Add(new Vector3((int)Math.Floor(cellPosition.x),
-                        (int)Math.Floor(cellPosition.y), 0), " ");
+                    GameManager.Instance.ItemsData.ItemsDictionary.AddItem(
+                        new Vector3((int)Math.Floor(cellPosition.x), (int)Math.Floor(cellPosition.y), 0), 
+                        " ");
 
                     _cells[row, column] = cell;
                 }

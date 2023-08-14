@@ -15,8 +15,7 @@ namespace Cell
             if (!_isTouch)
             {
                 _isTouch = true;
-                SelectItem.Instance.MakeMove(transform.position);
-                
+                GameManager.Instance.SelectItem.MakeMove(transform.position);
                 if (new MatchSystem().FindMatch(transform.position))
                     Debug.Log("Win Test");
             }

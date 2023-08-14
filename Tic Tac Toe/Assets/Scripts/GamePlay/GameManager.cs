@@ -14,11 +14,13 @@ namespace GamePlay
         public static GameManager Instance { get; private set; }
         
         [SerializeField] private BoardView boardView;
+        [SerializeField] private SelectItem selectItem;
         
         private BoardController _boardController;
         private ItemsData _itemsData;
 
         public ItemsData ItemsData => _itemsData;
+        public SelectItem SelectItem => selectItem;
 
         private void Awake()
         {

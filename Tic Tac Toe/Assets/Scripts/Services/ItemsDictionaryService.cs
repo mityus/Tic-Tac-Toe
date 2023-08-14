@@ -1,11 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Interfaces;
 using UnityEngine;
 
 namespace Services
 {
-    public class ItemsDictionaryService : IItemsDictionary
+    public class ItemsDictionaryService : IItemsDictionary<Vector3, string>
     {
         private readonly Dictionary<Vector3, string> _itemsDictionary = new Dictionary<Vector3, string>();
 
@@ -37,6 +38,26 @@ namespace Services
                 .SelectMany(group => group)
                 .Select(pairs => pairs.Key)
                 .ToList();
+        }
+    
+        public void SetValue(Vector3 position, string newValue)
+        {
+            if (_itemsDictionary.ContainsKey(position)) _itemsDictionary[position] = newValue;
+            else throw new Exception("No such key exists");
+        }
+        
+        public string GetValue(Vector3 position)
+        {
+            if (_itemsDictionary.TryGetValue(position, out string value)) return value;
+            
+            return null;
+        }
+
+        public bool IsContainsKey(Vector3 position)
+        {
+            if (_itemsDictionary.ContainsKey(position)) return true;
+
+            return false;
         }
     }
 }

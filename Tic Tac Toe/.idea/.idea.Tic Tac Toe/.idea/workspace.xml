@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf9e40b9-0f8b-4d4a-90df-f133b6ad219a" name="Default Changelist" comment="" />
+    <list default="true" id="bf9e40b9-0f8b-4d4a-90df-f133b6ad219a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Board/BoardView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Board/BoardView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cell/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cell/Cell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GamePlay/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GamePlay/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GamePlay/SelectItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GamePlay/SelectItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IItemsDictionary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IItemsDictionary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Match/MatchSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Match/MatchSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/ItemsDictionaryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/ItemsDictionaryService.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +55,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Board/BoardModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/ITicTocToeSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/TicTocToeSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Board/BoardView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventBus/Events/WinEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventBus/Events/SetItemEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/MovementSystem.cs" />
@@ -56,12 +65,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/ItemsDictionaryManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsData/ItemsData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Service/ItemsDictionaryService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Cell/Cell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Board/BoardView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Match/MatchSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/IItemsDictionary.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/ItemsDictionaryService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Match/MatchSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/SelectItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cell/Cell.cs" />
       </list>
     </option>
   </component>
@@ -120,6 +130,7 @@
       <workItem from="1691872116820" duration="5521000" />
       <workItem from="1691940552260" duration="5637000" />
       <workItem from="1692010730284" duration="7477000" />
+      <workItem from="1692032995963" duration="5248000" />
     </task>
     <servers />
   </component>
@@ -144,6 +155,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1692033596403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1692033596403" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1692013149417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

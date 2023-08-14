@@ -15,7 +15,7 @@ namespace Match
             currentPosition = new Vector3((int)Math.Floor(currentPosition.x), (int)Math.Floor(currentPosition.y), 0);
             
             GameManager.Instance.ItemsData.MatchesPositionsList.AddItem(currentPosition, 
-                SelectItem.Instance.ItemsDictionary[currentPosition]);
+                GameManager.Instance.ItemsData.ItemsDictionary.GetValue(currentPosition));
             
                 Vector3[] directions = {
                 Vector3.right, Vector3.left, Vector3.up, Vector3.down, 
@@ -31,18 +31,14 @@ namespace Match
                 {
                     Vector3 neighborPosition = currentPosition + direction * i;
                     
-                    if (!SelectItem.Instance.ItemsDictionary.ContainsKey(neighborPosition))
+                    if (!GameManager.Instance.ItemsData.ItemsDictionary.IsContainsKey(neighborPosition))
                         continue;
                     
-                    if (SelectItem.Instance.ItemsDictionary[currentPosition] ==
-                        SelectItem.Instance.ItemsDictionary[neighborPosition])
-                    {
-                        currentCount++;
-                    }
-                    else
-                        break;
+                    if (GameManager.Instance.ItemsData.ItemsDictionary.GetValue(currentPosition) 
+                       == GameManager.Instance.ItemsData.ItemsDictionary.GetValue(neighborPosition)) currentCount++;
+                    else break;
                 }
-
+            
                 if (currentCount >= 3) return true;
             }
             
