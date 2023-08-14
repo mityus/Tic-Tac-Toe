@@ -14,7 +14,8 @@ namespace Match
         {
             currentPosition = new Vector3((int)Math.Floor(currentPosition.x), (int)Math.Floor(currentPosition.y), 0);
             
-            SelectItem.Instance.MatchesPositionsList.Add(currentPosition, SelectItem.Instance.ItemsDictionary[currentPosition]);
+            GameManager.Instance.ItemsData.MatchesPositionsList.AddItem(currentPosition, 
+                SelectItem.Instance.ItemsDictionary[currentPosition]);
             
                 Vector3[] directions = {
                 Vector3.right, Vector3.left, Vector3.up, Vector3.down, 
@@ -42,30 +43,10 @@ namespace Match
                         break;
                 }
 
-                if (currentCount >= 3)
-                {
-                    Debug.Log(FindPositionsMatchesItems().Count);
-                    return true;
-                }
+                if (currentCount >= 3) return true;
             }
             
             return false;
-        }
-
-        public List<Vector3> FindPositionsMatchesItems()
-        {
-            return SelectItem.Instance.MatchesPositionsList
-                .GroupBy(pair => new{pair.Value})
-                .Where(group =>
-                {
-                    var commonX = group.All(pair => pair.Key.x == group.First().Key.x);
-                    var commonY = group.All(pair => pair.Key.y == group.First().Key.y);
-                    return commonX || commonY;
-                })
-                .Where(group => group.Count() >= 3)
-                .SelectMany(group => group)
-                .Select(pairs => pairs.Key)
-                .ToList();
         }
     }
 }

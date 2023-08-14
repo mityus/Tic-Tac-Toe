@@ -4,8 +4,6 @@ using UnityEngine;
 
 namespace GamePlay
 {
-    using EventBus;
-    
     public class SelectItem : MonoBehaviour
     {
         public static SelectItem Instance { get; private set; }
@@ -20,7 +18,6 @@ namespace GamePlay
         private readonly Dictionary<Vector3, string> _itemsDictionary = new Dictionary<Vector3, string>(); // включить зависимость
 
         public Dictionary<Vector3, string> ItemsDictionary => _itemsDictionary; // переделать
-        public Dictionary<Vector3, string> MatchesPositionsList { get; } = new Dictionary<Vector3, string>();
 
         private void Awake()
         {
