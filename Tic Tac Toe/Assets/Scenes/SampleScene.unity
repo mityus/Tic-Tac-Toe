@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boardView: {fileID: 162625469}
+  selectItem: {fileID: 1328926978}
 --- !u!4 &114731200
 Transform:
   m_ObjectHideFlags: 0
@@ -226,7 +227,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Other
+  m_text: Friedns
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1386,7 +1387,7 @@ GameObject:
   - component: {fileID: 1769071147}
   - component: {fileID: 1769071146}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: ButtonFriens
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1731,8 +1732,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 159.3342}
+  m_AnchoredPosition: {x: 0, y: 320}
+  m_SizeDelta: {x: 0, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1977760720
 GameObject:

@@ -16,21 +16,17 @@ namespace Board
        
         public void RenderBoard(int size)
         {
-            int cellSize = (int) cellPrefab.transform.localScale.x; 
-            
+            int cellSize = (int) cellPrefab.transform.localScale.x;
+
             _cells = new GameObject[size, size];
 
             for (int row = 0; row < size; row++)
             {
                 for (int column = 0; column < size; column++)
                 {
-                    if (row - cellSize == 0 && column - cellSize == 0)
-                        panelCells.position = new Vector3(row + -cellSize + (float) row / 10,
-                            column - cellSize + (float) column / 10);
-                    
-                    GameObject cell = Instantiate(cellPrefab, new Vector3(row - cellSize + (float) row / 10, 
-                        column - cellSize + (float) column / 10), Quaternion.identity, parentCellContainer);
-                     
+                    GameObject cell = Instantiate(cellPrefab, new Vector3(cellSize * row - cellSize, 
+                        cellSize * column - cellSize, 0), Quaternion.identity, parentCellContainer);
+
                     cell.name = "Cell_" + row + "_" + column;
 
                     Vector3 cellPosition = cell.transform.position;

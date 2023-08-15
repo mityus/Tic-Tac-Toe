@@ -21,14 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bf9e40b9-0f8b-4d4a-90df-f133b6ad219a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cell.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cell.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Board/BoardView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Board/BoardView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cell/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cell/Cell.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GamePlay/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GamePlay/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GamePlay/SelectItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GamePlay/SelectItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IItemsDictionary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IItemsDictionary.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Match/MatchSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Match/MatchSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/ItemsDictionaryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/ItemsDictionaryService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +60,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/ItemsDictionaryManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemsData/ItemsData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Service/ItemsDictionaryService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Board/BoardView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Match/MatchSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/IItemsDictionary.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/ItemsDictionaryService.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/SelectItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cell/Cell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Board/BoardView.cs" />
       </list>
     </option>
   </component>
@@ -130,7 +125,10 @@
       <workItem from="1691872116820" duration="5521000" />
       <workItem from="1691940552260" duration="5637000" />
       <workItem from="1692010730284" duration="7477000" />
-      <workItem from="1692032995963" duration="5248000" />
+      <workItem from="1692032995963" duration="5732000" />
+      <workItem from="1692048207867" duration="613000" />
+      <workItem from="1692098829101" duration="3868000" />
+      <workItem from="1692120658451" duration="13000" />
     </task>
     <servers />
   </component>
