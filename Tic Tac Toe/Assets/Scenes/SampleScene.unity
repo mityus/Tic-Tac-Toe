@@ -200,7 +200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellPrefab: {fileID: 2562684378119928454, guid: 2412490f6c85d4f49b99d16d7189242b, type: 3}
   parentCellContainer: {fileID: 1977760721}
-  panelCells: {fileID: 600864376}
+  distanceBetweenCells: 1.1
 --- !u!4 &162625470
 Transform:
   m_ObjectHideFlags: 0
@@ -706,7 +706,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5177388603050735206, guid: 71ebafeef3c03457483266a33ab2b270, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 0.9433962, g: 0.8794108, b: 0.7164471, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2265,7 +2265,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1785389602
 RectTransform:
   m_ObjectHideFlags: 0

@@ -22,7 +22,8 @@
     <list default="true" id="bf9e40b9-0f8b-4d4a-90df-f133b6ad219a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tic Tac Toe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cell.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cell.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Board/BoardView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Board/BoardView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +66,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/SelectItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cell/Cell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Board/BoardView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Board/BoardView.cs" />
       </list>
     </option>
   </component>
@@ -132,6 +133,7 @@
       <workItem from="1692098829101" duration="3868000" />
       <workItem from="1692120658451" duration="13000" />
       <workItem from="1692623416905" duration="716000" />
+      <workItem from="1692877812755" duration="707000" />
     </task>
     <servers />
   </component>

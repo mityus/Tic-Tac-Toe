@@ -10,22 +10,23 @@ namespace Board
     {
         [SerializeField] private GameObject cellPrefab;
         [SerializeField] private Transform parentCellContainer;
-        [SerializeField] private Transform panelCells;
+        
+        [Space]
+        [Range(0.0f, 2.0f)]
+        [SerializeField] private float distanceBetweenCells = 1.1f;
 
         private GameObject[,] _cells;
        
         public void RenderBoard(int size)
         {
-            int cellSize = (int) cellPrefab.transform.localScale.x;
-
             _cells = new GameObject[size, size];
 
             for (int row = 0; row < size; row++)
             {
                 for (int column = 0; column < size; column++)
                 {
-                    GameObject cell = Instantiate(cellPrefab, new Vector3(cellSize * row - cellSize, 
-                        cellSize * column - cellSize, 0), Quaternion.identity, parentCellContainer);
+                    GameObject cell = Instantiate(cellPrefab, new Vector3(distanceBetweenCells * row - distanceBetweenCells, 
+                        distanceBetweenCells * column - distanceBetweenCells, 0), Quaternion.identity, parentCellContainer);
 
                     cell.name = "Cell_" + row + "_" + column;
 
